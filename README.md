@@ -12,9 +12,9 @@ The purpose of this analysis was to create a deep learning model using a neural 
 
 # Results
 ## Data Preprocessing
-**Target Variable(s):** The target variable for the model was the IS_SUCCESSFUL column, indicating whether an applicant's funding was successful.
-**Feature Variable(s):** The features for the model included all columns except IS_SUCCESSFUL, EIN, and NAME, which were removed due to their non-beneficial nature in predicting success.
-**Removed Variable(s):** The columns EIN and NAME were removed as they didn't contribute to predicting funding success.
+- **Target Variable(s):** The target variable for the model was the IS_SUCCESSFUL column, indicating whether an applicant's funding was successful.
+- **Feature Variable(s):** The features for the model included all columns except IS_SUCCESSFUL, EIN, and NAME, which were removed due to their non-beneficial nature in predicting success.
+- **Removed Variable(s):** The columns EIN and NAME were removed as they didn't contribute to predicting funding success.
 ## Compiling, Training, and Evaluating the Model
 **Neurons, Layers, and Activation Functions:** The neural network model was structured with an input layer of the same dimensionality as the number of features, followed by hidden layers with 80 and 30 neurons, respectively, using ReLU activation functions. The output layer had a single neuron using a sigmoid activation function to predict success or failure.
 
